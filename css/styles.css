@@ -1,8 +1,71 @@
+/* main color 212121
+bg header FFFFFF
+
+logo 2196F3 000000
+accent bg 2196F3
+accent color FFFFFF
+p 757575
+footer bg 2F303A
+mail tel color FFFFFF96
+filter bg F5F4FA
+project-item bg EEEEEE */
+
+:root {
+    /* fonts */
+    --main-font: Roboto,
+        sans-serif;
+    --secondary-font: Raleway,
+     sans-serif;
+
+     /* text colors */
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #FFFFFF;
+    --current-pg-cl: #2196F3;
+
+/* bg colors */
+    --btn-bg-cl: #F5F4FA;
+    --accent-bg-cl: #2196F3;
+    --header-bg-cl: #FFFFFF;
+    --footer-bg-cl: #2F303A;
+    --progect-item-cl: #EEEEEE;
+    
+}
+
+
 /* Общий стиль */
-button {cursor: pointer;}
+
+body {font-family: var(--main-font);
+color: var(--main-txt-cl) ;}
+
+
+/* reset syles */
+.link,
+.project-link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header-list,
+.communication,
+.button-list,
+.projects-list,
+.footer-list {
+    list-style: none;
+}
+/* 
+
+.btn {font-family: inherit;
+cursor: pointer;}
+.btn mode dark
+.btn mode dark
+
+
+base style
+
+
+header
+ */
 
 
 
 
-
-/* Header */
