@@ -29,7 +29,8 @@ color: var(--main-txt-cl) ;}
 
 
 /* reset syles */
-.logo,
+.logo-header,
+.logo-footer,
 .link,
 .project-link {
     text-decoration: none;
@@ -53,6 +54,7 @@ color: var(--main-txt-cl) ;}
 .button-filter,
 .hero-button {
     cursor: pointer;
+    font-family: inherit;
 }
 .hero-button
  {color: var(--white-cl);
@@ -76,7 +78,25 @@ background-color: var(--accent-txt-cl);}
 
 
 /* logo styles */
+.logo-header,
+.logo-footer {
+    font-family: var(--secondary-font);
 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+
+.web {
+    color: var(--accent-txt-cl);
+}
+
+.studio-logo-header {
+    color: var(--logo-black-cl);
+}
+.studio-logo-footer {color: var(--white-cl);}
 
 /* link styles */
 .link:hover,
@@ -89,22 +109,6 @@ background-color: var(--accent-txt-cl);}
 
 
 /* header styles */
-.logo {
-    font-family: var(--secondary-font);
-   
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-
-    letter-spacing: 0.03em;}
-
-        .web {
-            color: var(--accent-txt-cl);
-        }
-    
-        .studio {
-            color: var(--logo-black-cl);
-        }
 
 .page-header {
    
@@ -240,6 +244,7 @@ color: var(--secondary-txt-cl);
         letter-spacing: 0.03em;
 
 }
-.address.link {color: var(--white-cl);
+.address.link {
+    color: var(--white-cl);
 }
 
